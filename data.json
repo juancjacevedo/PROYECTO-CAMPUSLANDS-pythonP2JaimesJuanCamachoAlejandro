@@ -1,0 +1,115 @@
+
+{
+    "campers": {
+        "1095797268": {
+            "nombre": "Juan Carlos",
+            "apellidos": "Jaimes Acevedo",
+            "direccion": "123ABC",
+            "acudiente": "Lagra Acevedo",
+            "telefono_celular": "123456178",
+            "telefono_fijo": "",
+            "estado": "Aprobado",
+            "riesgo": "Bajo",
+            "ruta_asignada": null,
+            "trainer_asignado": null,
+            "modulos": {},
+            "nota_final": 0
+        }
+    },
+    "trainers": {
+        "T001": {
+            "nombre": "Edwin Salas",
+            "horario": { "inicio": 6, "fin": 14 },
+            "especialidades": ["Java", "NetCore"],
+            "rutas_asignadas": [],
+            "disponible": true
+        },
+        "T002": {
+            "nombre": "Pedro Gomez",
+            "horario": { "inicio": 6, "fin": 18 },
+            "especialidades": ["NodeJS", "Java"],
+            "rutas_asignadas": [],
+            "disponible": true
+        },
+        "T003": {
+            "nombre": "Jholver",
+            "horario": { "inicio": 6, "fin": 14 },
+            "especialidades": ["Java", "NetCore"],
+            "rutas_asignadas": [],
+            "disponible": true
+        },
+        "T004": {
+            "nombre": "Cristian",
+            "horario": { "inicio": 10, "fin": 18 },
+            "especialidades": ["Java", "NodeJS"],
+            "rutas_asignadas": [],
+            "disponible": true
+        },
+        "T005": {
+            "nombre": "Kevin David",
+            "horario": { "inicio": 6, "fin": 14 },
+            "especialidades": ["Java"],
+            "rutas_asignadas": [],
+            "disponible": true
+        }
+    },
+    "coordinadores": {
+        "C001": {
+            "nombre": "Ana María López",
+            "email": "ana.lopez@campuslands.com",
+            "telefono": "3001234567",
+            "rutas_a_cargo": [],
+            "activo": true
+        }
+    },
+    "rutas": {
+        "R001": {
+            "nombre": "Java Full Stack",
+            "trainer_principal": null,
+            "trainer_apoyo": null,
+            "coordinador": null,
+            "campers": [],
+            "capacidad_maxima": 33,
+            "modulos": {
+                "M001": { "nombre": "Fundamentos de Programación", "peso_porcentual": 20 },
+                "M002": { "nombre": "Java Básico", "peso_porcentual": 30 },
+                "M003": { "nombre": "Spring Boot", "peso_porcentual": 50 }
+            },
+            "salon": "S01",
+            "horario": { "inicio": 6, "fin": 14 },
+            "activa": true
+        },
+        "R002": {
+            "nombre": "NodeJS Full Stack",
+            "trainer_principal": null,
+            "trainer_apoyo": null,
+            "coordinador": null,
+            "campers": [],
+            "capacidad_maxima": 33,
+            "modulos": {
+                "M001": { "nombre": "Fundamentos de Programación", "peso_porcentual": 20 },
+                "M002": { "nombre": "NodeJS Básico", "peso_porcentual": 30 },
+                "M003": { "nombre": "Express y MongoDB", "peso_porcentual": 50 }
+            },
+            "salon": "S02",
+            "horario": { "inicio": 6, "fin": 14 },
+            "activa": true
+        },
+        "R003": {
+            "nombre": "NetCore Full Stack",
+            "trainer_principal": null,
+            "trainer_apoyo": null,
+            "coordinador": null,
+            "campers": [],
+            "capacidad_maxima": 33,
+            "modulos": {
+                "M001": { "nombre": "Fundamentos de Programación", "peso_porcentual": 20 },
+                "M002": { "nombre": "C# Básico", "peso_porcentual": 30 },
+                "M003": { "nombre": "ASP.NET Core", "peso_porcentual": 50 }
+            },
+            "salon": "S03",
+            "horario": { "inicio": 10, "fin": 18 },
+            "activa": true
+        }
+    }
+}
